@@ -1,0 +1,14 @@
+/* src/app/profile/profile.component.css */
+.profile-container {
+    padding: 20px;
+  }
+  
+  .profile-card {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-avatar {
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+  }

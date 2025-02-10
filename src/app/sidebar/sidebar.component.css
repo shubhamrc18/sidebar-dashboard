@@ -1,0 +1,29 @@
+
+mat-sidenav-container {
+  height: 100vh; 
+  width: 100vw; 
+}
+
+mat-sidenav {
+  width: 250px;
+  background-color: #3f51b5;
+}
+
+.sidebar-header {
+  padding: 16px;
+  text-align: center;
+  background-color: #2c387e; 
+  color: white;
+}
+
+mat-nav-list a {
+  color: white; 
+}
+
+mat-nav-list a.active {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+mat-nav-list mat-icon {
+  margin-right: 8px;
+}

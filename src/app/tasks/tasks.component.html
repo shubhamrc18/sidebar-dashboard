@@ -1,0 +1,10 @@
+<div class="tasks-container">
+    <h1>Tasks</h1>
+    <mat-card class="task-card" *ngFor="let task of tasks">
+      <mat-card-title>{{ task.title }}</mat-card-title>
+      <mat-card-content>
+        <p>{{ task.description }}</p>
+        <p><strong>Status:</strong> {{ task.status }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>

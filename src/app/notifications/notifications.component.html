@@ -1,0 +1,11 @@
+<!-- src/app/notifications/notifications.component.html -->
+<div class="notifications-container">
+    <h1>Notifications</h1>
+    <mat-card class="notification-card" *ngFor="let notification of notifications">
+      <mat-card-title>{{ notification.title }}</mat-card-title>
+      <mat-card-content>
+        <p>{{ notification.message }}</p>
+        <p><strong>Date:</strong> {{ notification.date }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
